@@ -51,7 +51,7 @@ public class RegistrationValidator implements Validator {
 				&& regmod.getPassword().contains("-") != true) {
 			errors.rejectValue("password", "error.pwd", "password must have 8-16 characters and must contain -");
 		}
-
+				/*Srirang*/
 		/*
 		 * if(regmod.getMobilenumber()!=0) { Pattern pattern = Pattern.compile(
 		 * "[0-9]{10}"); Matcher matcher =
